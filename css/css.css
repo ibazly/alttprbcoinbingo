@@ -3,3 +3,9 @@ body {
   color:            #ffffff;
   margin:           0;
 }
+
+#newGoal {
+  height: 100%;
+  float:  right;
+  clear:  both;
+}

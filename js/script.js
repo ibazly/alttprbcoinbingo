@@ -51,6 +51,10 @@ function print_goal() {
   $("output").innerHTML = goals[mt_rand(0,goals.length - 1)];
 }
 
+function newGoal() {
+  window.location.href = window.location.href;
+}
+
 function init() {
   getGoals();
   print_goal();
